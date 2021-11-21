@@ -11,6 +11,11 @@ type Felidae struct {
 	Color string
 }
 
+func (f *Felidae) reset() {
+	f.Color = ""
+	f.Name = ""
+}
+
 func (f Felidae) String() string {
 	return fmt.Sprintf("The lion %s and color %s is a large mammal of the Felidae family", f.Name, f.Color)
 }
