@@ -11,7 +11,7 @@ type Felidae struct {
 	Color string
 }
 
-func (f *Felidae) reset() {
+func (f *Felidae) Reset() {
 	f.Color = ""
 	f.Name = ""
 }
